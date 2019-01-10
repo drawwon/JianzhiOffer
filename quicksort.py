@@ -15,6 +15,7 @@ def quicksort(nums,l,r):
         quicksort(nums, l, q-1)
         quicksort(nums, q+1,r)
 
-arrays = [1,2,4,5,6,3]
+
+arrays = [2, 1, 4, 5, 6, 3]
 quicksort(arrays,0,len(arrays)-1)
 print(arrays)
